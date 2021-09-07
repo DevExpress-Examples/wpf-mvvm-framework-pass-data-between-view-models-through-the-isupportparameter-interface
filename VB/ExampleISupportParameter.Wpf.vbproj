@@ -1,27 +1,31 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5E5A7DBC-5FE8-4AF3-9C68-79A8AD440903}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <AssemblyName>ExampleISupportParameter</AssemblyName>
-    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
     <BaseIntermediateOutputPath>obj.Wpf</BaseIntermediateOutputPath>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
-    <SccProjectName></SccProjectName>
-    <SccLocalPath></SccLocalPath>
-    <SccAuxPath></SccAuxPath>
-    <SccProvider></SccProvider>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
     <OptionExplicit>On</OptionExplicit>
     <OptionCompare>Binary</OptionCompare>
     <OptionStrict>Off</OptionStrict>
     <OptionInfer>On</OptionInfer>
+    <BaseIntermediateOutputPath>obj.NetFX</BaseIntermediateOutputPath>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -34,11 +38,25 @@
     <ErrorReport>prompt</ErrorReport>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="DevExpress.Data.v14.1">
+    <Reference Include="DevExpress.Data.v21.1">
     </Reference>
-    <Reference Include="DevExpress.Mvvm.v14.1">
+    <Reference Include="DevExpress.Mvvm.v21.1">
     </Reference>
-    <Reference Include="DevExpress.Xpf.Core.v14.1">
+    <Reference Include="DevExpress.Pdf.v21.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.Office.v21.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.RichEdit.v21.1.Export">
+    </Reference>
+    <Reference Include="DevExpress.Printing.v21.1.Core">
+    </Reference>
+    <Reference Include="DevExpress.Xpf.CodeView.v21.1">
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v21.1">
+    </Reference>
+    <Reference Include="DevExpress.Xpf.Core.v21.1">
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -121,4 +139,7 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <ItemGroup>
+    <None Include="app.config" />
+  </ItemGroup>
 </Project>
