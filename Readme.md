@@ -11,12 +11,12 @@ This example shows you how to pass data between View Models through the ISupport
 <!-- default file list -->
 ## Files to Look At
 
-* [ChildView1.xaml](./CS/View/ChildView1.xaml)
-* [ChildView2.xaml](./CS/View/ChildView2.xaml)
-* **[MainView.xaml](./CS/View/MainView.xaml)**
-* [ChildPOCOViewModel.cs](./CS/ViewModel/ChildPOCOViewModel.cs)
-* [ChildViewModelBase.cs](./CS/ViewModel/ChildViewModelBase.cs)
-* [MainViewModel.cs](./CS/ViewModel/MainViewModel.cs)
+* [ChildView1.xaml](./CS/View/ChildView1.xaml) (VB: [ChildView1.xaml](./VB/View/ChildView1.xaml))
+* [ChildView2.xaml](./CS/View/ChildView2.xaml) (VB: [ChildView2.xaml](./VB/View/ChildView2.xaml))
+* **[MainView.xaml](./CS/View/MainView.xaml) (VB: [MainView.xaml](./VB/View/MainView.xaml))**
+* [ChildPOCOViewModel.cs](./CS/ViewModel/ChildPOCOViewModel.cs) (VB: [ChildPOCOViewModel.vb](./VB/ViewModel/ChildPOCOViewModel.vb))
+* [ChildViewModelBase.cs](./CS/ViewModel/ChildViewModelBase.cs) (VB: [ChildViewModelBase.vb](./VB/ViewModel/ChildViewModelBase.vb))
+* [MainViewModel.cs](./CS/ViewModel/MainViewModel.cs) (VB: [MainViewModel.vb](./VB/ViewModel/MainViewModel.vb))
 <!-- default file list end -->
 
 ## Documentation
