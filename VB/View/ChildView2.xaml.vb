@@ -1,7 +1,8 @@
-﻿Imports System.Windows.Controls
+Imports System.Windows.Controls
 
 Namespace Example.View
-    Partial Public Class ChildView2
+
+    Public Partial Class ChildView2
         Inherits UserControl
 
         Public Sub New()

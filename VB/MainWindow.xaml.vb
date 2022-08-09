@@ -1,7 +1,8 @@
-﻿Imports System.Windows
+Imports System.Windows
 
 Namespace Example
-    Partial Public Class MainWindow
+
+    Public Partial Class MainWindow
         Inherits Window
 
         Public Sub New()
