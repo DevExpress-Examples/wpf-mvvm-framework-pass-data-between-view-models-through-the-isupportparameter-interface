@@ -6,7 +6,7 @@
 
 # Pass data between View Models through the ISupportParameter interface
 
-This example shows you how to pass data between View Models through the ISupportParameter interface in the [DevExpress MVVM Framework](https://docs.devexpress.com/WPF/15112/mvvm-framework).
+This example passes data between View Models through the ISupportParameter interface (using the [DevExpress MVVM Framework](https://docs.devexpress.com/WPF/15112/mvvm-framework)).
 
 <!-- default file list -->
 ## Files to Look At
