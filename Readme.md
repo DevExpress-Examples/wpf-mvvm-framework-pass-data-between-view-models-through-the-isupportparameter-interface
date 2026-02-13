@@ -23,7 +23,7 @@ This example passes data between View Models through the ISupportParameter inter
 ## Documentation
 * [Pass Data Between ViewModels (ISupportParameter)](https://docs.devexpress.com/WPF/17448/mvvm-framework/viewmodels/passing-data-between-viewmodels-isupportparameter)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-mvvm-framework-pass-data-between-view-models-through-the-isupportparameter-interface&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=wpf-mvvm-framework-pass-data-between-view-models-through-the-isupportparameter-interface&~~~was_helpful=no)
 
